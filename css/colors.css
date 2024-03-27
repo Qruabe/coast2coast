@@ -1,0 +1,36 @@
+a {
+    color: #414d52 !important;
+}
+
+a:hover {
+    color: #2e70d4 !important;
+}
+
+.btn-primary {
+    background-color: #07162D !important;
+}
+
+div.container::after {
+    background-color: #07162D !important;
+}
+
+div.container::before {
+    background-color: #2e70d4 !important;
+}
+
+.call-to-action-primary {
+    background-color: #07162D !important;
+    color: white !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.contact-container {
+    background-color: #f7f7f7 !important
+}
+
+.star-rating {
+    color: #2e70d4;
+}

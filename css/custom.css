@@ -1,0 +1,149 @@
+.icon {
+    width: 4em;
+    height: 4em;
+    color: #07162D;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url('/img/airport-bg.png');
+    background-position: center;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center !important;
+}
+
+.hero-header {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+
+    font-size: 4em;
+
+    margin-bottom: 1rem !important;
+}
+
+.hero-subheader {
+    color: rgb(189, 189, 189);
+}
+
+.hero-primary-button {
+    height: 48px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+    background: none;
+    border-radius: 10px;
+}
+
+#faq {
+    background-color: white !important;
+}
+
+#contact {
+    background-color: #f7f7f7 !important;
+    border: none !important;
+}
+
+#testimonials {
+    margin: 0 !important;
+}
+
+.hero-button-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.hero-button-link:hover {
+    color: #07162D;
+}
+
+.no-mb {
+    margin-bottom: 0 !important;
+}
+
+.call-to-action-dark {
+    background-color: #07162D !important;
+}
+
+.card-header {
+    padding: 1em !important;
+    border: 0px solid white !important;
+}
+
+.faq-card {
+    border: none !important;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.services-cta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.word-rotator-words {
+    height: 1.5em;
+    text-wrap: wrap;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-header {
+        font-size: 2em !important;
+        padding-bottom: 3em !important;
+    }
+
+    .hero-header > span {
+        display: block;
+    }
+
+    span.word-rotator-words.selected {
+        height: 39px !important;
+    }
+
+    .word-rotator-words.waiting::after {
+        background-color: white !important;
+        margin-top: 10px;
+        height: 1em !important;
+    }
+}
+
+#footer {
+    margin: 0 !important;
+}
+
+#footer::after {
+    display: none !important;
+}
+
+.word-rotator-words.selecting {
+    background-color: white !important;
+}
+
+.word-rotator-words.waiting::after {
+    background-color: white !important;
+    height: 1em !important;
+}
+
+.hero-subheading {
+    padding: 1em !important;
+}
